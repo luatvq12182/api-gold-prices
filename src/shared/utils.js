@@ -18,8 +18,6 @@ const pipe =
         fns.reduce((value, fn) => fn(value), initialValue);
 
 const filterGoldPrices = (data, { brand, age, category, kind }) => {
-    console.log('Bao yeu thuong gio noi dau: ', { brand, age, category, kind });
-
     const combinedFunction2 = pipe(
         (arr) => {
             if (!!brand) {
