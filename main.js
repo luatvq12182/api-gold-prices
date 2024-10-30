@@ -31,6 +31,8 @@ const main = async () => {
 
         app.post("/api/crawl_gold_prices", (_req, res) => {
             crawler_gold_prices(() => {
+                cache.reset();
+                
                 res.json({
                     msg: "Crawl done!",
                 });
