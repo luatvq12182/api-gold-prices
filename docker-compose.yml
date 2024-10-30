@@ -1,0 +1,17 @@
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - '26868:26868'
+    container_name: gold-price-api-c
+    image: gold-price-api-i
+    restart: always
+    networks:
+      - mt-network
+
+networks:
+  mt-network:
+    external: true
