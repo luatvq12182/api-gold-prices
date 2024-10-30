@@ -1,0 +1,6 @@
+B1: Hoàn thiện API (CRUD, Cache) -> OK
+B2: Hoàn thiện hệ thống cào tự động (mỗi 2h 1 lần) -> OK
+B3: Auth key -> OK
+B4: Hoàn thiện hệ thống shortcode cho website wordpress
+B5: Deploy lên VPS (VPS Interdata)
+B6: Gắn shortcode trên các site vàng trên VPS
